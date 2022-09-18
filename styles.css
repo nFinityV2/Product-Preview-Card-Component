@@ -2,21 +2,25 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    margin: 150px;
 }
 
-p {
+p { 
+    color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
 h1 {
     font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
 }
 
 .card-container {
     display: flex;
+    align-items: center;
     width: 1200px;
-    margin: 0 auto;
+    margin: auto auto;
     background-color: hsl(0, 0%, 100%);
     overflow: hidden;
     border-radius: 20px;
@@ -28,12 +32,31 @@ h1 {
     padding: 20px 120px;
     border: none;
     border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
-.pricing {
-    display: flex;
+.title {
+    color: hsl(212, 21%, 14%);
 }
 
 .desc {
     padding: 50px;
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-cart:hover {
+    background-color: #1a4031;
+}
+
+#label {
+    line-height: 2em;
+}
+
+#discount {
+    text-decoration: line-through;
 }
