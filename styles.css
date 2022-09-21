@@ -40,7 +40,6 @@ button {
 
 .img-container {
   background-image: url('images/image-product-mobile.jpg');
-  background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   height: 240px;
@@ -56,11 +55,6 @@ button {
   flex-direction: row;
 }
 
-.title {
-  color: hsl(212, 21%, 14%);
-  margin: 0;
-}
-
 .btn-container {
   display: flex;
   justify-content: center;
@@ -68,6 +62,11 @@ button {
 
 .btn-cart:hover {
   background-color: #1a4031;
+}
+
+#title {
+  color: hsl(212, 21%, 14%);
+  margin: 0;
 }
 
 #cart-icon {
@@ -86,23 +85,15 @@ button {
     text-decoration: line-through;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1000px) {
   .card-container {
-    display: flex;
     flex-direction: row;
     align-items: center;
     width: 900px;
-    margin: auto auto;
-    background-color: hsl(0, 0%, 100%);
-    overflow: hidden;
-    border-radius: 20px;
   }
 
   .img-container {
     background-image: url('images/image-product-desktop.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
     height: 600px;
     width: 900px;
   }
