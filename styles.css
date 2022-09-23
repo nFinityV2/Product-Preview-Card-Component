@@ -28,6 +28,10 @@ button {
   font-weight: 700;
 }
 
+button:hover {
+  background-color: #1a4031;
+}
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -58,10 +62,6 @@ button {
 .btn-container {
   display: flex;
   justify-content: center;
-}
-
-.btn-cart:hover {
-  background-color: #1a4031;
 }
 
 #title {
