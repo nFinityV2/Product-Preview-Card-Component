@@ -73,7 +73,7 @@ button:hover {
   padding-right: 10px;
 }
 
-#label {
+.label {
   line-height: 2em;
   margin: 0;
 }
